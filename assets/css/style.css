@@ -58,6 +58,7 @@ li {
   display: flex;
   justify-content: center;
   padding: 50px;
+  color: white;
 }
 
 .aboutText {
@@ -98,4 +99,72 @@ li {
 
 .card p {
   color: #666;
+}
+
+.skills {
+  margin-top: 180px;
+}
+
+.skillTitle {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+}
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  width: 35%;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.skillCard h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.devBox {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  gap: 35px;
+}
+
+.devData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devData h3 {
+  margin: 5px 0;
+}
+
+.devData img {
+  width: 50px;
+  height: 50px;
+}
+
+.skillCard ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
