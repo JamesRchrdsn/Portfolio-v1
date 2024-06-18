@@ -9,6 +9,7 @@ header {
   position: fixed;
   background-color: white;
   top: 0;
+  z-index: 1000;
 }
 
 .container {
@@ -29,6 +30,7 @@ header {
   top: 200px;
   background-color: white;
   border-radius: 8px 0 0 8px;
+  z-index: 1000;
 }
 
 .navBar ul {
@@ -167,4 +169,45 @@ li {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.career {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.careerTitle {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.careerContainer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.schoolCareer {
+  background-color: white;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.workCareer {
+  background-color: white;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.itemCareer {
+  margin: 10px 0;
+  padding: 10px;
 }
