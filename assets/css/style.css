@@ -166,7 +166,7 @@ li {
 
 .career {
   max-width: 1200px;
-  margin: auto;
+  margin: 80px auto;
   padding: 100px 0;
 }
 
@@ -295,10 +295,10 @@ li {
 }
 
 .contact {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #3a0f6b;
+  padding: 20px 80px 80px;
+  max-width: 1000px;
+  margin: 200px auto 100px;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -322,14 +322,24 @@ textarea {
 }
 
 #contactForm button {
-  padding: 10px 15px;
-  background-color: #007bff;
+  padding: 20px;
+  font-size: 24px;
+  margin-top: 15px;
+  background-color: #7500ff;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.2s box-shadow 0.3s;
 }
 
 #contactForm button:hover {
-  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(152, 149, 215, 0.7);
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 50px;
 }

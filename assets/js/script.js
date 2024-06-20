@@ -20,7 +20,7 @@ window.onclick = function (event) {
 // Envoi mail
 
 (function () {
-  emailjs.init("service_n48ib6i");
+  emailjs.init("Gc-5IFYkoz84iaD4J");
 })();
 
 function sendEmail(event) {
@@ -37,6 +37,7 @@ function sendEmail(event) {
     email: email,
     subject: subject,
     message: message,
+    reply_to: email,
   };
 
   emailjs.send("service_n48ib6i", "template_f5drs8f", templateParams).then(
@@ -47,7 +48,6 @@ function sendEmail(event) {
       console.log("FAILED...", error);
     }
   );
-
   emailjs.send("service_n48ib6i", "template_wf1glem", templateParams).then(
     function (response) {
       console.log("SUCCESS!", response.status, response.text);
@@ -58,6 +58,7 @@ function sendEmail(event) {
       alert("L'envoi du message a échoué. Veuillez réessayer plus tard.");
     }
   );
+  document.getElementById("contactForm").reset();
 }
 
 document.getElementById("contactForm").addEventListener("submit", sendEmail);
