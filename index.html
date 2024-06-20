@@ -105,7 +105,7 @@
         </ul>
       </div>
       <section class="aboutMe">
-        <h1 class="aboutTitle">A propos de moi</h1>
+        <h1 class="Title">A propos de moi</h1>
         <p class="aboutText">
           Je suis un développeur web en reconversion, spécialisé dans
           l'intégration web avec une solide compréhension des technologies HTML,
@@ -148,7 +148,7 @@
         </div>
       </section>
       <section class="skills">
-        <h1 class="skillTitle">Mes Compétences</h1>
+        <h1 class="Title">Mes Compétences</h1>
         <div class="skillContainer">
           <div class="skillCard">
             <h3>Développement Web</h3>
@@ -253,7 +253,7 @@
         </div>
       </section>
       <section class="career">
-        <h1 class="careerTitle">Mon Parcours</h1>
+        <h1 class="Title">Mon Parcours</h1>
         <div class="careerContainer">
           <div class="schoolCareer">
             <h3>Parcours Scolaire</h3>
@@ -323,9 +323,156 @@
           </div>
         </div>
       </section>
-      <section class="projects"></section>
+      <section class="projects">
+        <h1 class="Title">Mes projets</h1>
+        <div class="projectContainer">
+          <div class="projectCard" onclick="openModal('bookiModal')">
+            <img
+              src="assets/img/Booki.webP"
+              title="Booki"
+              alt="Site de réservation de voyage"
+            />
+          </div>
+          <div class="projectCard" onclick="openModal('ohmyfoodModal')">
+            <img
+              src="assets/img/OhMyFood.webP"
+              title="OhmyFood"
+              alt="Site de commande de repas"
+            />
+          </div>
+          <div class="projectCard" onclick="openModal('printitModal')">
+            <img
+              src="assets/img/PrintIt.webP"
+              title="Print It"
+              alt="Site d'un imprimeur'"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Modal -->
+      <div id="bookiModal" class="modal">
+        <div class="modalContent">
+          <span class="close" onclick="closeModal('bookiModal')">&times;</span>
+          <h2>Booki</h2>
+          <img
+            src="assets/img/Booki.webP"
+            title="Booki"
+            alt="Site de réservation de voyage"
+          />
+          <p>
+            Ce projet portait sur la création de la page d'accueil du site d'une
+            agence de voyage. En utilisant HTML et CSS, j'ai travaillé à partir
+            d'une maquette Figma pour développer le site aussi bien pour
+            ordinateur que pour mobile, en adoptant une approche responsive.
+            <br />
+            Les objectifs pédagogique de ce projet étaient les suivants :
+          </p>
+          <ul>
+            <li>Implémenter une interface responsive avec HTML et CSS</li>
+            <li>Installer un environnement de développement front-end</li>
+            <li>
+              Intégrer du contenu conformément à une maquette avec HTML et CSS
+            </li>
+          </ul>
+          <a href="https://jamesrchrdsn.github.io/Projet-3/" target="_blank"
+            >Voir le projet</a
+          >
+          <a href="https://github.com/JamesRchrdsn/Projet-3" target="_blank"
+            >Voir le GitHub</a
+          >
+        </div>
+      </div>
+      <div id="ohmyfoodModal" class="modal">
+        <div class="modalContent">
+          <span class="close" onclick="closeModal('ohmyfoodModal')"
+            >&times;</span
+          >
+          <h2>Oh My Food</h2>
+          <img
+            src="assets/img/OhMyFood.webP"
+            title="OhmyFood"
+            alt="Site de commande de repas"
+          />
+          <p>
+            Ce projet portait sur l'interface mobile-first du site d’une
+            start-up. En utilisant Sass, j'ai implémenté des animations CSS et
+            versionné le projet avec Git et GitHub. Mon principal défi était
+            d'intégrer une maquette mobile-first à partir de maquettes
+            disponibles pour mobile et desktop, ainsi que d'un prototype sur
+            Figma.
+            <br />
+            Les objectifs pédagogiques de ce projet étaient les suivants :
+          </p>
+          <ul>
+            <li>
+              Intégrer une maquette en mobile-first pour comprendre l'importance
+              des sites web adaptatifs et réactifs.
+            </li>
+            <li>
+              Mettre en œuvre des animations CSS pour enrichir l'expérience
+              utilisateur, rendant la navigation plus interactive et engageante.
+            </li>
+            <li>
+              Utiliser Sass, un pré-processeur CSS, pour écrire des styles plus
+              organisés et maintenables.
+            </li>
+            <li>
+              Versionner le projet avec Git et GitHub, se familiarisant ainsi
+              avec des outils essentiels pour la gestion et la collaboration sur
+              des projets de développement web.
+            </li>
+          </ul>
+          <a href="https://jamesrchrdsn.github.io/Ohmyfoodp4/" target="_blank"
+            >Voir le projet</a
+          >
+          <a href="https://github.com/JamesRchrdsn/Ohmyfoodp4" target="_blank"
+            >Voir le GitHub</a
+          >
+        </div>
+      </div>
+      <div id="printitModal" class="modal">
+        <div class="modalContent">
+          <span class="close" onclick="closeModal('printitModal')"
+            >&times;</span
+          >
+          <h2>Print It</h2>
+          <img
+            src="assets/img/PrintIt.webP"
+            title="Print It"
+            alt="Site d'un imprimeur'"
+          />
+          <p>
+            Ce projet portait sur la dynamisation du site internet statique
+            d'une imprimerie en y ajoutant un carrousel interactif. En utilisant
+            JavaScript, j'ai exploré les fondamentaux de ce langage pour rendre
+            le site plus dynamique et engageant. À partir du code HTML existant,
+            j'ai intégré un carrousel en JavaScript, ce qui m'a permis de
+            comprendre comment JavaScript interagit avec HTML et CSS pour créer
+            des éléments web interactifs.
+            <br />
+            Les objectifs pédagogiques de ce projet étaient les suivants :
+          </p>
+          <ul>
+            <li>Programmer en utilisant les fondamentaux de JavaScript</li>
+            <li>
+              Intégrer des fonctionnalités interactives telles qu'un carrousel
+            </li>
+          </ul>
+          <a
+            href="https://jamesrchrdsn.github.io/Print-it-JS-main/"
+            target="_blank"
+            >Voir le projet</a
+          >
+          <a
+            href="https://github.com/JamesRchrdsn/Print-it-JS-main"
+            target="_blank"
+            >Voir le GitHub</a
+          >
+        </div>
+      </div>
       <section class="contact"></section>
     </main>
     <footer></footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
