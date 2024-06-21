@@ -9,6 +9,6 @@ Pour cloner et exécuter ce projet localement, suivez ces étapes :
 
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/JamesRchrdsn/Portfolio-v1.git
+   git clone https://github.com/JamesRchrdsn/Portfolio-v1.git```
 
    Ouvrer l'index.html
