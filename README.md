@@ -10,6 +10,7 @@ Pour cloner et exécuter ce projet localement, suivez cette étape :
 Clonez le repository :
    ```bash
    git clone https://github.com/JamesRchrdsn/Portfolio-v1.git
+```
    
 
  Puis ouvrer l'index.html
