@@ -13,4 +13,4 @@ Clonez le repository :
 ```
    
 
- Puis ouvrer l'index.html
+ Puis ouvrir index.html afin de voir le site en local.
