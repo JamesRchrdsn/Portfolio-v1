@@ -29,11 +29,20 @@
   <body>
     <header>
       <div class="container">
-        <h1 class="nameTitle">James LAURENT</h1>
+        <div class="profilContainer">
+          <img
+            class="profilPhotos"
+            alt="Phot de James Laurent"
+            title="Photo de James Laurent"
+            src="assets/photo/PhotoLinkedin.webP"
+          />
+          <h1 class="nameTitle">James LAURENT</h1>
+        </div>
+
         <nav class="navHeader">
           <ul>
             <li>
-              <a href="" alt="About Me link"
+              <a href="#aboutMe" alt="About Me link"
                 ><img
                   src="assets/icons/about-svgrepo-com.svg"
                   alt="About Me"
@@ -41,7 +50,7 @@
               /></a>
             </li>
             <li>
-              <a href="" alt="Skills link"
+              <a href="#skills" alt="Skills link"
                 ><img
                   src="assets/icons/skill-svgrepo-com.svg"
                   alt="Skills"
@@ -49,7 +58,7 @@
               /></a>
             </li>
             <li>
-              <a href="" alt="Career link"
+              <a href="#career" alt="Career link"
                 ><img
                   src="assets/icons/career-ladder-stairs-promotion-career-advance-svgrepo-com.svg"
                   alt="Career"
@@ -57,7 +66,7 @@
               /></a>
             </li>
             <li>
-              <a href="" alt="Projects link"
+              <a href="#projects" alt="Projects link"
                 ><img
                   src="assets/icons/project-presentation-svgrepo-com.svg"
                   alt="Projects"
@@ -65,7 +74,7 @@
               /></a>
             </li>
             <li>
-              <a href="" alt="Contact link"
+              <a href="#contact" alt="Contact link"
                 ><img
                   src="assets/icons/contact-svgrepo-com.svg"
                   alt="Contact"
@@ -80,40 +89,52 @@
       <div class="navBar">
         <ul class="linkNav">
           <li>
-            <a href="" alt="Linkedin Link"></a
-            ><img
-              src="assets/icons/linkedin-svgrepo-com.svg"
-              alt="Linkedin"
-              title="Linkedin"
-            />
+            <a
+              href="https://www.linkedin.com/in/james-laurent-804463315/"
+              alt="Linkedin Link"
+              target="_blank"
+              ><img
+                src="assets/icons/linkedin-svgrepo-com.svg"
+                alt="Linkedin"
+                title="Linkedin"
+            /></a>
           </li>
           <li>
-            <a href="" alt="Github Link"></a
-            ><img
-              src="assets/icons/github-142-svgrepo-com.svg"
-              alt="Github"
-              title="Github"
-            />
+            <a
+              href="https://github.com/JamesRchrdsn"
+              alt="Github Link"
+              target="_blank"
+              ><img
+                src="assets/icons/github-142-svgrepo-com.svg"
+                alt="Github"
+                title="Github"
+            /></a>
           </li>
           <li>
-            <a href="" alt="Slack Link"></a
-            ><img
-              src="assets/icons/slack-svgrepo-com.svg"
-              alt="Slack"
-              title="Slack"
-            />
+            <a
+              href="https://occommunity.enterprise.slack.com/team/U062WHV4Q7R"
+              target="_blank"
+              alt="Slack Link"
+              ><img
+                src="assets/icons/slack-svgrepo-com.svg"
+                alt="Slack"
+                title="Slack"
+            /></a>
           </li>
           <li>
-            <a href="" alt="CV Link"></a
-            ><img
-              src="assets/icons/cv-file-interface-symbol-svgrepo-com.svg"
-              alt="CV"
-              title="CV"
-            />
+            <a
+              href="assets/CV/CV James LAURENT 2024.pdf"
+              alt="CV Link"
+              target="_blank"
+              ><img
+                src="assets/icons/cv-file-interface-symbol-svgrepo-com.svg"
+                alt="CV"
+                title="CV"
+            /></a>
           </li>
         </ul>
       </div>
-      <section class="aboutMe">
+      <section id="aboutMe">
         <h1 class="Title">A propos de moi</h1>
         <p class="aboutText">
           Je suis un développeur web en reconversion, spécialisé dans
@@ -156,7 +177,7 @@
           </div>
         </div>
       </section>
-      <section class="skills">
+      <section id="skills">
         <h1 class="Title">Mes Compétences</h1>
         <div class="skillContainer">
           <div class="skillCard">
@@ -261,7 +282,7 @@
           </div>
         </div>
       </section>
-      <section class="career">
+      <section id="career">
         <h1 class="Title">Mon Parcours</h1>
         <div class="careerContainer">
           <div class="schoolCareer">
@@ -332,7 +353,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects">
         <h1 class="Title">Mes projets</h1>
         <div class="projectContainer">
           <div class="projectCard" onclick="openModal('bookiModal')">
@@ -479,7 +500,7 @@
           >
         </div>
       </div>
-      <section class="contact">
+      <section id="contact">
         <h1 class="Title">Contactez-moi</h1>
         <form id="contactForm">
           <label for="name">Nom: </label>
