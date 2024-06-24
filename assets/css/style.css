@@ -336,6 +336,12 @@ header {
   border-radius: 8px;
 }
 
+.contactTitle {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
 #contactForm {
   display: flex;
   flex-direction: column;
