@@ -426,10 +426,17 @@ footer {
   .aboutText {
     width: 60%;
   }
+  .card {
+    width: 70%;
+  }
   .cardContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .skillCard {
+    width: 70%;
   }
 
   .careerContainer {
@@ -438,15 +445,20 @@ footer {
     gap: 25px;
   }
 
+  .schoolCareer {
+    width: 70%;
+  }
   .workCareer {
     margin-top: 25px;
+    width: 70%;
   }
 
   .projectContainer {
     flex-direction: column;
+    gap: 30px;
   }
   .projectCard {
-    width: 60%;
+    width: 80%;
   }
 
   #contact {
