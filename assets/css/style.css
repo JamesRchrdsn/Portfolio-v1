@@ -390,12 +390,18 @@ footer {
 @media screen and (max-width: 1024px) {
   .container {
     padding: 0;
+    justify-content: start;
   }
   .navContainer {
     margin-right: 0;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 10px 0;
   }
+  .portfolio {
+    display: none;
+  }
+
   .profilPhotos {
     width: 50px;
     height: 50px;
@@ -405,7 +411,7 @@ footer {
     width: 25px;
   }
   h1 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .navBar {
     gap: 10px;
@@ -438,5 +444,19 @@ footer {
 
   #contact {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+  }
+  .contactTitle {
+    font-size: 20px;
   }
 }
