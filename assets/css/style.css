@@ -3,6 +3,10 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  z-index: -10;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -367,17 +371,26 @@ textarea {
   padding: 20px;
   font-size: 24px;
   margin-top: 15px;
-  background-color: #7500ff;
+  background-image: linear-gradient(
+    to right,
+    #2b5876 0%,
+    #4e4376 51%,
+    #2b5876 100%
+  );
+  text-transform: uppercase;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.2s box-shadow 0.3s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 15px #7500ff;
 }
 
 #contactForm button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(152, 149, 215, 0.7);
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer {
