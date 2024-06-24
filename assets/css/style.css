@@ -1,5 +1,9 @@
 body {
-  background-color: #7500ff;
+  background-image: url(../img/Background.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -7,7 +11,8 @@ body {
 header {
   width: 100%;
   position: fixed;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   top: 0;
   z-index: 1000;
 }
@@ -32,38 +37,40 @@ header {
   padding: 0 50px;
 }
 
-.navHeader ul {
+.portfolio {
+  padding-top: 10px;
+}
+
+.navContainer {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
   padding: 10px;
+  margin-right: 100px;
+}
+
+.navContent {
+  align-items: center;
+  display: flex;
 }
 
 .navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   position: fixed;
   right: 0px;
   top: 200px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   border-radius: 8px 0 0 8px;
   z-index: 1000;
+  padding: 15px;
 }
 
-.navBar ul {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-li img {
+.navContent img,
+.linkContent img {
   width: 40px;
-}
-
-ul {
-  padding: 0 10px;
-}
-
-li {
-  list-style-type: none;
 }
 
 #aboutMe {
@@ -72,16 +79,23 @@ li {
 
 .Title {
   font-size: 30px;
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-  color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
+  display: inline-block;
+  margin: 60px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .aboutText {
   width: 47%;
   margin: 0 auto 50px;
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   padding: 20px;
   font-size: 18px;
@@ -95,9 +109,9 @@ li {
 }
 
 .card {
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   margin: 10px;
   padding: 20px;
@@ -111,11 +125,11 @@ li {
 
 .card h3 {
   margin-top: 0;
-  color: #333;
+  color: black;
 }
 
 .card p {
-  color: #666;
+  color: black;
 }
 
 #skills {
@@ -131,7 +145,8 @@ li {
 .skillCard {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   width: 35%;
   margin: 10px;
@@ -193,7 +208,8 @@ li {
 }
 
 .schoolCareer {
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   width: 40%;
   text-align: center;
@@ -201,7 +217,8 @@ li {
 }
 
 .workCareer {
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   width: 40%;
   text-align: center;
@@ -257,7 +274,8 @@ li {
 }
 
 .modalContent {
-  background-color: white;
+  background-color: rgba(218, 216, 253, 0.7);
+  backdrop-filter: blur(10px);
   margin: 1% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -314,8 +332,8 @@ li {
   max-width: 1000px;
   margin: 200px auto 100px;
   background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #contactForm {
@@ -355,6 +373,7 @@ textarea {
 
 footer {
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   padding: 50px;
 }
