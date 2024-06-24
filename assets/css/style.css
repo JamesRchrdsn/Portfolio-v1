@@ -3,13 +3,14 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  z-index: -10;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  z-index: -10;
+  position: relative;
 }
 
 header {
@@ -458,6 +459,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-color: #b08ada;
+    background-image: linear-gradient(
+      43deg,
+      #b08ada 0%,
+      #9373bb 30%,
+      #492f71 66%,
+      #201333 100%
+    );
+
+    background-attachment: scroll;
+  }
   .navBar {
     top: auto;
     bottom: 20px;
