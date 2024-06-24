@@ -464,6 +464,14 @@ footer {
   #contact {
     width: 60%;
   }
+  .modalContent {
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  .modalContent img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -476,7 +484,6 @@ footer {
       #492f71 66%,
       #201333 100%
     );
-
     background-attachment: scroll;
   }
 
