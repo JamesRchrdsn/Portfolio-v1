@@ -467,14 +467,6 @@ footer {
 
     background-attachment: scroll;
   }
-  .navBar {
-    top: auto;
-    bottom: 20px;
-    right: 20px;
-    flex-direction: row;
-    gap: 15px;
-    padding: 10px;
-  }
 
   .contactTitle {
     font-size: 20px;
