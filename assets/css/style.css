@@ -138,8 +138,11 @@ header {
 
 .skillContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .skillCard {
@@ -148,7 +151,7 @@ header {
   background-color: rgba(218, 216, 253, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  width: 35%;
+  width: 60%;
   margin: 10px;
   padding: 20px;
   box-sizing: border-box;
@@ -382,4 +385,58 @@ footer {
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   padding: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+  }
+  .navContainer {
+    margin-right: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .profilPhotos {
+    width: 50px;
+    height: 50px;
+  }
+  .navContent img,
+  .linkContent img {
+    width: 25px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .navBar {
+    gap: 10px;
+  }
+
+  #aboutMe {
+    margin-top: 150px;
+  }
+  .aboutText {
+    width: 60%;
+  }
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .careerContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .projectContainer {
+    flex-direction: column;
+  }
+  .projectCard {
+    width: 60%;
+  }
+
+  #contact {
+    width: 60%;
+  }
 }
