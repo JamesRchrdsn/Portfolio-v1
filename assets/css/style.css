@@ -427,7 +427,8 @@ footer {
   .linkContent img {
     width: 25px;
   }
-  h1 {
+  h1,
+  h2 {
     font-size: 18px;
   }
   .navBar {
