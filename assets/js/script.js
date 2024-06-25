@@ -19,10 +19,6 @@ window.onclick = function (event) {
 
 // Envoi mail
 
-(function () {
-  emailjs.init("Gc-5IFYkoz84iaD4J");
-})();
-
 function sendEmail(event) {
   event.preventDefault();
 
