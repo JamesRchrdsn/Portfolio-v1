@@ -397,6 +397,17 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    background-color: #b08ada;
+    background-image: linear-gradient(
+      43deg,
+      #b08ada 0%,
+      #9373bb 30%,
+      #492f71 66%,
+      #201333 100%
+    );
+    background-attachment: scroll;
+  }
   .container {
     padding: 0;
     justify-content: space-evenly;
@@ -475,18 +486,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #b08ada;
-    background-image: linear-gradient(
-      43deg,
-      #b08ada 0%,
-      #9373bb 30%,
-      #492f71 66%,
-      #201333 100%
-    );
-    background-attachment: scroll;
-  }
-
   .contactTitle {
     font-size: 20px;
   }
