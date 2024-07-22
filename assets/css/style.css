@@ -57,6 +57,11 @@ header {
 .navContent {
   align-items: center;
   display: flex;
+  transition: transform 0.2s;
+}
+
+.navContent:hover {
+  transform: scale(1.3);
 }
 
 .navBar {
@@ -71,6 +76,12 @@ header {
   border-radius: 8px 0 0 8px;
   z-index: 1000;
   padding: 15px;
+}
+.linkContent {
+  transition: transform 0.2s;
+}
+.linkContent:hover {
+  transform: scale(1.3);
 }
 
 .navContent img,
